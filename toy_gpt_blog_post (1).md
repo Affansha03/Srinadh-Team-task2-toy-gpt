@@ -90,10 +90,3 @@ While production LLMs involve billions of parameters and massive datasets, under
 - Experiment with sampling techniques (top-k, nucleus)
 
 ---
-
-## 📹 Coming Soon: Video Walkthrough
-
-I'll share a screen recording walking through:
-1. The tokenization logic
-2. Model building in PyTorch
-3. Generating custom text samples
