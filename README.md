@@ -19,6 +19,6 @@ As part of Task 2, I also completed the hands-on experiment using Hugging Face T
   - Token count
   - Output tokens
   - Encoding speed
-  - 
+
 ## 📝 Blog
 - File: `toy_gpt_blog_post.md'
