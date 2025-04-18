@@ -12,6 +12,3 @@ This repository contains the deliverables for Internship Task 2 (Day 16–30).
 
 ## 📝 Blog
 - File: `toy_gpt_blog_post.md`
-
-## 🎬 Video Walkthrough Script
-- File: `tokenization_gpt_demo_script.txt`
