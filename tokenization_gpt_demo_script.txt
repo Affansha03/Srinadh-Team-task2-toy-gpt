@@ -2,7 +2,7 @@
 🎬 Video Walkthrough Script: Tokenization & Toy GPT Demo
 
 🎙️ Intro Slide / Start Recording
-Hello! My name is [Your Name], and in this short demo, I’ll walk you through the second task of my LLM internship — which includes:
+Hello! My name is Affan Shareef, and in this short demo, I’ll walk you through the second task of my LLM internship — which includes:
 1. An overview of tokenization techniques,
 2. A toy GPT model I built from scratch in PyTorch,
 3. And a live demo of generating text using that model.
