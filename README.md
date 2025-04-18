@@ -11,4 +11,4 @@ This repository contains the deliverables for Internship Task 2 (Day 16–30).
 - Trained on: “To be or not to be.”
 
 ## 📝 Blog
-- File: `toy_gpt_blog_post.md`
+- File: `toy_gpt_blog_post.md'
