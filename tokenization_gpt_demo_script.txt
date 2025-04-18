@@ -1,0 +1,60 @@
+
+🎬 Video Walkthrough Script: Tokenization & Toy GPT Demo
+
+🎙️ Intro Slide / Start Recording
+Hello! My name is [Your Name], and in this short demo, I’ll walk you through the second task of my LLM internship — which includes:
+1. An overview of tokenization techniques,
+2. A toy GPT model I built from scratch in PyTorch,
+3. And a live demo of generating text using that model.
+
+📘 Part 1: Tokenization Summary Slide
+Let’s begin with a quick summary of tokenization.
+
+Tokenization is how we break text into small pieces — like words or subwords — so language models can understand and process them.
+
+We explored three main techniques:
+- Byte Pair Encoding (BPE): It merges frequent character pairs to form subword units.
+- WordPiece: Used in BERT, it uses likelihood to choose subword splits.
+- SentencePiece: Language-agnostic and works directly on raw text, great for multilingual models.
+
+These techniques help balance vocabulary size and model performance.
+
+🧠 Part 2: GPT Architecture Slide or Diagram
+Now, let’s look at the core of the GPT model.
+
+GPT uses a decoder-only Transformer architecture, with:
+- Token embeddings: To turn tokens into vectors
+- Positional encodings: So the model knows token order
+- Masked self-attention: So it only looks at previous tokens
+- Feedforward layers: To learn complex patterns
+- And a final output layer to predict the next token.
+
+The training goal is simple: Predict the next token given previous ones.
+
+💻 Part 3: Code Walkthrough Screen Share
+Now I’ll show you the actual Python code I wrote.
+
+I created a toy dataset: the sentence ‘To be or not to be.’
+
+Using PyTorch, I defined a simple model:
+- An embedding layer
+- A linear output head
+- And a generate() function to autoregressively produce text.
+
+Let’s run the model now…
+
+As you can see, the model generates new text starting from the letter 'T'. It learns basic structure like word flow and punctuation even from a tiny dataset.
+
+🧪 Part 4: Output Example
+Here's an example of generated text:
+> ‘To be or nor bo ot to’
+
+This isn’t perfect, but considering how tiny the dataset and model are, it’s a great start and shows the core principles of how GPT works.
+
+🎯 Outro Slide
+To summarize:
+- I explored tokenization fundamentals,
+- Implemented a mini GPT model from scratch,
+- And demonstrated its training and text generation.
+
+Thanks for watching! Feel free to check out my blog post and code linked below.
