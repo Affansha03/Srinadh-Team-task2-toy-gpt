@@ -44,7 +44,7 @@ GPT uses **decoder-only Transformer blocks** and is trained in a **causal (left-
 - **Feedforward Network**: Learns nonlinear transformations
 - **Output Layer**: Predicts the next token
 
-![Transformer Architecture](https://jalammar.github.io/images/gpt2/gpt2-large-transformer-block.png)
+![Transformer Architecture](transformer_architecture.png)
 
 ---
 
