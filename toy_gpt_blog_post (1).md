@@ -1,5 +1,5 @@
 
-# ✍️ Blog Post: Building a Toy GPT from Scratch — Tokenization to Text Generation
+# Building a Toy GPT from Scratch — Tokenization to Text Generation
 
 ## 🔍 Introduction
 
